@@ -1,0 +1,331 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family:sans-serif;
+	color: 000;
+	font-size: 16px;
+}
+*{
+	box-sizing: border-box;
+
+}
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+h3 {
+	font-size:25px;
+}
+
+p {
+	margin 0;
+}
+a {
+text-decoration: none;
+}
+section {
+	padding-top: 113px;
+}
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.box{
+	width: 100px;
+	height: 100px;
+}
+.header{
+	background: url('../images/birds.jpg') no-repeat center top / cover ;
+	padding-top: 57px;
+	color:#fff;
+	padding-bottom:322px; 
+}
+header a {
+	color:white;
+
+}
+.menu {
+	display: flex;
+
+}
+.menu li a {
+	text-transform: uppercase;
+	
+	font-size:14px;
+	letter-spacing: 0.1em;
+}
+.menu li {
+	margin-right: 40px;
+}
+.tel {
+	font-size:17px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+
+}
+
+.nav {
+	display:flex;
+	align-items: center;
+
+
+}
+.logo{
+	margin-right: 69px;
+}
+.offer {
+	text-transform: uppercase;
+}
+.offer p{
+	font-size:30px;
+}
+.offer a {
+	color:black;
+
+}
+.offer h1{
+	font-size:100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+	color:#EEE8AA;
+}
+
+.btn {
+	display: block;
+	font-size:17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border:1px solid #ffff;
+	width: 238px;
+	transition: all 0.5s ease;
+
+}
+.btn:hover {
+	background:#fff;
+	color:#0000;
+}
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+.description p {
+	font-size: 20px;
+	font-family:"Arial";
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+
+}
+
+.desc-left, .desc-right{
+	width:567px;
+}
+
+
+.gallery {
+	margin-top:67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#buttonup {   
+   display: inline-block;   
+   background-color: #FF9800;   
+   width: 50px;   
+   height: 50px;   
+   text-align: center;   
+   border-radius: 4px;   
+   margin: 30px;   
+   position: fixed;   
+   bottom: 30px;   
+   right: 30px;   
+   transition: background-color .3s;   
+   z-index: 1000; 
+} 
+#buttonup:hover {   
+   cursor: pointer;   
+   background-color: #333; 
+} 
+#buttonup:active {   
+   background-color: #555; 
+} 
+
+#buttonup::after {
+   content: "\f077";
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 2em;
+   line-height: 50px;
+   color: #fff; 
+}
+.show {
+	display:block;
+}
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+.containeer{
+	max-width: 1170px;
+	margin: auto;
+
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+ul {
+	list-style:none;
+}
+
+.footer {
+	background-color: #24262b;
+	padding:70px 0;
+}
+.footer-col {
+	width: 25%;
+	padding:0 15px;
+
+}
+.footer-col h4{
+	font-size: 30px;
+	color:#ffffff;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+.footer-col p {
+	font-size:20px;
+	color:white;
+}
+.footer-col a{
+	font-size:20px;
+	color:white;
+}
+
+
+
+
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+   #field {
+      width: 200px;
+      height: 150px;
+      border: 10px solid black;
+      background-color: aqua;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    #bird {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      transition: all 1s;
+    }
