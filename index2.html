@@ -1,0 +1,199 @@
+<html lang ="en">
+<head>
+<title>Animals</title>
+  <link rel="stylesheet" href="js/main.css">
+  <link rel="icon" type="image/x-icon" href="images/bird.png">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+<script src="https://kit.fontawesome.com/98f9f051d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class ="container">
+            <div class="nav">
+                <img src ="images/2702413.svg" width="80" height="80" alt="logo" class="logo">
+            <ul class ="menu">
+                <li>
+                    <a href ="file:///C:/Users/User/Desktop/bootstrap/bootstarpproject/index2.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href ="file:///C:/Users/User/Desktop/bootstrap/bootstarpproject/index3.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href ="file:///C:/Users/User/Desktop/bootstrap/bootstarpproject/index4.html">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+            <a href="tel:+77475030894" class="tel">
+                +7-777-777-77-77
+            </a>
+        </div>
+        <div class="offer">
+            <p>The top 3</p>
+            <h1>The rarest and most endangered bird species</h1>
+            <a href="file:///C:/Users/User/Desktop/bootstrap/bootstarpproject/index3.html"class="btn">Read more about it</a>
+        </div>
+
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About the birds</h2>
+            <div class="description">
+                <div class="desc-left">
+                <h3>The Sumatran Ground Cuckoo</h3>
+                <p>The Sumatran ground cuckoo is a large, terrestrial species of cuckoo. It was introduced to Western science in 1879 and was formerly considered conspecific with the Bornean ground cuckoo but was given status as a unique species in 2000. The Sumatran ground cuckoo's diet is thought to consist of invertebrates, small mammals, and reptiles</p>
+                <audio id="audio">
+            <source type='audio/ogg; codecs="opus"' src="https://xeno-canto.org/sounds/uploaded/ACTUZNYJOG/XC306523-SumatranGroundCuckoo_WayTitias_2014-07-18_1119_after%27PB%27_SC.mp3"/>
+        </audio>
+        <br>
+        <button id="btnPlay">Play</button>
+        <button id="btnPause">Pause</button>
+        <button id="btnStop">Stop</button>
+        <script>
+            var audio = document.getElementById('audio');
+            var btnPlay = document.getElementById('btnPlay');
+            var btnPause = document.getElementById('btnPause');
+            var btnStop = document.getElementById('btnStop');
+ 
+            if(audio && btnPlay && btnPause && btnStop){
+                btnPlay.addEventListener('click', function(event){
+                    audio.play();
+                });
+                btnPause.addEventListener('click', function(event){
+                    audio.pause();
+                });
+                btnStop.addEventListener('click', function(event){
+                    audio.pause();
+                    audio.currentTime = 0;
+                });
+            }
+        </script>
+        </div>
+            <div class="desc-right">
+                <h3>Belgan florican</h3>
+                <p>The Bengal florican (Houbaropsis bengalensis), also called Bengal bustard, is a bustard species native to the Indian subcontinent, Cambodia, and Vietnam. It is listed as Critically Endangered on the IUCN Red List because fewer than 1,000 individuals were estimated to be alive as of 2017.It is the only member of the genus Houbaropsis.</p>
+                <audio id="audio2">
+            <source type='audio/ogg; codecs="opus"' src="https://xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC595430-JarekMatusiak-123%20%282%29%20drop%20w%20locie%20%282%29.mp3"/>
+        </audio>
+        <br>
+        <button id="btnPlay2">Play</button>
+        <button id="btnPause2">Pause</button>
+        <button id="btnStop2">Stop</button>
+        <script>
+            var audio2 = document.getElementById('audio2');
+            var btnPlay2 = document.getElementById('btnPlay2');
+            var btnPause2 = document.getElementById('btnPause2');
+            var btnStop2 = document.getElementById('btnStop2');
+ 
+            if(audio2 && btnPlay2 && btnPause2 && btnStop2){
+                btnPlay2.addEventListener('click', function(event){
+                    audio2.play();
+                });
+                btnPause2.addEventListener('click', function(event){
+                    audio2.pause();
+                });
+                btnStop2.addEventListener('click', function(event){
+                    audio2.pause();
+                    audio2.currentTime = 0;
+                });
+            }
+        </script>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="images/kukuwka.jpg" width="400" height="300" alt="Event photo 1">
+            <img src="images/drofa.jpg" width="400" height="300" alt="Event photo 2">
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+ <section id="about" class="about">
+        <div class="container">
+            <div class="description">
+                <div class="desc-left">
+                <h3>The Giant Ibis</h3>
+                <p>The Giant Ibis (Thaumatibis gigantea), the only species in the monotypic genus Thaumatibis, is a wading bird of the ibis family, Threskiornithidae. It is confined to northern Cambodia, with a few birds surviving in extreme southern Laos and a recent sighting in Yok Đôn National Park, Vietnam.</p>
+            <audio id="audio3">
+            <source type='audio/ogg; codecs="opus"' src="https://xeno-canto.org/sounds/uploaded/JXPGRIPRNX/XC577046-21735.mp3"/>
+        </audio>
+        <br>
+        <button id="btnPlay3">Play</button>
+        <button id="btnPause3">Pause</button>
+        <button id="btnStop3">Stop</button>
+        <script>
+            var audio3 = document.getElementById('audio3');
+            var btnPlay3 = document.getElementById('btnPlay3');
+            var btnPause3 = document.getElementById('btnPause3');
+            var btnStop3 = document.getElementById('btnStop3');
+ 
+            if(audio3 && btnPlay3 && btnPause3 && btnStop3){
+                btnPlay3.addEventListener('click', function(event){
+                    audio3.play();
+                });
+                btnPause3.addEventListener('click', function(event){
+                    audio3.pause();
+                });
+                btnStop3.addEventListener('click', function(event){
+                    audio3.pause();
+                    audio3.currentTime = 0;
+                });
+            }
+        </script>
+    </div>
+        </div>
+         <div class="gallery">
+            <img src="images/ibis.jpg" width="400" height="300" alt="Event photo 3">
+        
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+<footer class="footer">
+    <div class="containeer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Information</h4>
+                     <p>©Alisher Maratov,2022.</p>
+                     <p>Astana IT University</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+<li><p><span><a href="index4.html">Write to us.</a></span></p></li>
+                   
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div id="field">
+                <img src="images/bird.png" id="bird"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  </div>
+
+        </div>
+    </div>
+</div>
+
+</footer>
+    <a id="buttonup"></a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+<script src="js/main2.js"></script>
+</body>
+</html>
+    
